@@ -61,7 +61,7 @@ function App() {
 
       const response = await axios.post('https://api.remove.bg/v1.0/removebg', formData, {
         headers: {
-          'X-Api-Key': 'MXCJ7HN9dp6X9jbFtJE4a1VH',
+          'X-Api-Key': 'your api', //add your api
         },
         responseType: 'arraybuffer'
       });
